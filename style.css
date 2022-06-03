@@ -3,22 +3,28 @@ body{
     
 }
 .h {
- 
+   border: 1px solid red ;
+    width: auto;
     display: flex;
-  justify-content: center;
-    height: 10Vh;
-   
+    justify-content: center;
+    
+    
     
 }
-.head{
-    text-align: center;
+.temp{
+
+}
+h1{
+  
+   
     
+    white-space: nowrap;
     color: rgb(144, 7, 7);
     font-size: xx-large;
-   /* margin: auto; */
+    margin: auto; 
     border-right: 4px solid black;
-   padding-top: 1%;
-   animation: write 2s steps(10 ,end)  1  ;
+   padding: 1%;
+     animation: write 2s steps(10 ,end)  1 , blink 1s step-end infinite;
    overflow: hidden;
     font-family: monospace;
 }
@@ -29,12 +35,22 @@ body{
          width: 0                  
      }
     100%{
-        width: 70%;
+        width: 100%;
+        
     }
-     
-     
 }
+@keyframes blink{
+     0%, 100%{
+         border-color: black;
+     }
+     50%{
+         border-color: transparent;
+     }
+ }    
+     
+
 img{
+    visibility: hidden;
     white-space: pre-line;
     width: 100%;
     height: auto;
