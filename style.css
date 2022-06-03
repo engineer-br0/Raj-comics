@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(186, 213, 254);
+    display: flex;
+  justify-content: center;
+}
+.h{
+    
+    height: 10Vh;
+   
+    
+}
+.head{
+    color: rgb(144, 7, 7);
+    font-size: xx-large;
+   /* margin: auto; */
+    border-right: 4px solid black;
+   animation: write 2s steps(10 ,end)  1  ;
+   overflow: hidden;
+    font-family: monospace;
+}
+
+
+@keyframes write{
+     0%{
+         width: 0                  
+     }
+    100%{
+        width: 70%;
+    }
+     
+     
+}
