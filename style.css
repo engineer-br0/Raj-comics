@@ -1,19 +1,23 @@
 body{
     background-color: rgb(186, 213, 254);
+    
+}
+.h {
+ 
     display: flex;
   justify-content: center;
-}
-.h{
-    
     height: 10Vh;
    
     
 }
 .head{
+    text-align: center;
+    
     color: rgb(144, 7, 7);
     font-size: xx-large;
    /* margin: auto; */
     border-right: 4px solid black;
+   padding-top: 1%;
    animation: write 2s steps(10 ,end)  1  ;
    overflow: hidden;
     font-family: monospace;
@@ -29,4 +33,9 @@ body{
     }
      
      
+}
+img{
+    white-space: pre-line;
+    width: 100%;
+    height: auto;
 }
