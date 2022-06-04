@@ -1,9 +1,24 @@
 body{
     background-color: rgb(186, 213, 254);
+    margin: 0%;
+    padding: 0%;
+}
+.navbar{
+   
+    background-color: rgb(248, 245, 245);
+    border: 1px solid rgb(19, 3, 3) ;
+    
+}
+nav{
+    text-align: right;
+    border: 1px solid rgb(16, 1, 1) ;
+   
+    
     
 }
 .h {
-   border: 1px solid red ;
+   
+   background-color: black;
     width: auto;
     display: flex;
     justify-content: center;
@@ -11,6 +26,7 @@ body{
     
     
 }
+
 .temp{
 
 }
@@ -19,14 +35,14 @@ h1{
    
     
     white-space: nowrap;
-    color: rgb(144, 7, 7);
-    font-size: xx-large;
+    color: rgb(246, 93, 93);
+    font-size: 50px;
     margin: auto; 
-    border-right: 4px solid black;
+    border-right: 4px solid rgb(250, 245, 245);
    padding: 1%;
      animation: write 2s steps(10 ,end)  1 , blink 1s step-end infinite;
    overflow: hidden;
-    font-family: monospace;
+   
 }
 
 
@@ -41,7 +57,7 @@ h1{
 }
 @keyframes blink{
      0%, 100%{
-         border-color: black;
+         border-color: rgb(249, 245, 245);
      }
      50%{
          border-color: transparent;
@@ -50,8 +66,40 @@ h1{
      
 
 img{
-    visibility: hidden;
+  
     white-space: pre-line;
     width: 100%;
     height: auto;
+}
+.para{
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.heading{
+    color: rgb(236, 79, 79);
+    font-size: 40px;
+    text-align: center;
+    white-space: nowrap;
+    font-family: 'Courier New', Courier, monospace;
+}
+#sub{
+    text-align: center;
+}
+
+
+
+.nag{
+    
+   display: inline-block;
+    background-color: white;
+    width: 24%;
+    white-space: nowrap;
+}
+.card{
+    
+    color: rgb(244, 84, 10);
+   text-align: center;
+    font-size: 30px;
 }
