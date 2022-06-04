@@ -104,3 +104,9 @@ img{
    text-align: center;
     font-size: 30px;
 }
+#footer{
+    background-color: rgb(109, 106, 106);
+    height: 30px;
+    padding-top: 5px;
+    text-align: center;
+}
